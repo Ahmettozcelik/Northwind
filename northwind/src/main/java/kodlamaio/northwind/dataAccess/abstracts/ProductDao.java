@@ -31,4 +31,5 @@ public interface ProductDao extends JpaRepository<Product, Integer>{
 	
 	// select p.productId, p.productName, c.categoryName from Category c inner join Product p 
 	// on c.categoryId = p.categoryId
+	
 }
